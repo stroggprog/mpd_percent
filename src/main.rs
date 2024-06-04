@@ -2,7 +2,7 @@ extern crate mpd;
 
 use mpd::Client;
 
-const HOST: &str = "romeo:6600";
+const HOST: &str = "localhost:6600";
 
 fn main() {
     let mut conn = Client::connect(HOST).unwrap();
