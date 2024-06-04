@@ -1,5 +1,5 @@
-# MPD_PERCENT
-This is a simple program writte in Rust, that returns the percentage of the queue that has been played.
+# mpd_percent
+This is a simple program written in Rust, that returns the percentage of the queue that has been played.
 The value returned is a string representation of a float with precision to two decimal places.
 e.g. `32.56`
 It is part of a small suite of similar programs that are intended for use with Conky.
